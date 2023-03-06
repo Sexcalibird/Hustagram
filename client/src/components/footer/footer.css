@@ -1,0 +1,27 @@
+.footer {
+  padding-bottom: 52px;
+  padding-top: 52px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links a {
+  text-decoration: none;
+  color: #8e8e8e;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0 8px 12px 8px;
+}
+
+.copyright {
+  padding: 12px 0;
+  color: #8e8e8e;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}

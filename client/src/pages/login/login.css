@@ -1,0 +1,41 @@
+.login {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 7rem auto 0;
+  font-size: 14px;
+}
+
+.con {
+  display: flex;
+}
+
+.login-main {
+  width: 350px;
+}
+
+.logo img {
+  max-width: 410px;
+}
+
+.btn-login {
+  margin: 10px 0 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .login {
+    margin-top: 1rem;
+  }
+  .box {
+    border: 0;
+    background-color: transparent;
+  }
+}

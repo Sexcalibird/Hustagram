@@ -1,0 +1,170 @@
+.detail-container {
+    margin: auto;
+    width: auto;
+    max-width: 920px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    display: flex;
+}
+
+.detail-container a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+}
+
+.detail-img {
+    width: auto;
+    height: 700px;
+    vertical-align: center;
+    display: flex;
+    background-color: black;
+}
+
+.detail-img img {
+    width: auto;
+    max-width: 700px;
+    height: auto;
+    max-height: 700px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.detail-info {
+    width: auto;
+    border-left: 1px solid #e6e6e6;
+}
+
+.detail-info-header {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.detail-info-header .detail-user {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.detail-user p {
+    cursor: pointer;
+    color: #888888;
+}
+
+.detail-info-header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.detail-info-header button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cmt-wrapper {
+    padding-top: 10px;
+    overflow-y: auto;
+    height: 460px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.detail-info-cmt {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.detail-info-cmt img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.detail-info-cmt p {
+    font-size: 14px;
+}
+
+.cmt-container {
+    margin-bottom: 5px;
+}
+
+.cmt {
+    font-size: 13px;
+    white-space: pre-wrap;
+}
+
+.cmt-user {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.cmt-time p {
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.detail-info-bot {
+    padding: 15px;
+}
+
+.cmtbtn-container {
+    justify-content: space-between;
+    display: flex;
+}
+
+.cmtbtn-container button {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.detail-likes {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.detail-time {
+    font-size: 13px;
+    color: #8e8e8e;
+    margin-bottom: 10px;
+}
+
+.detail-addcmt {
+    display: flex;
+    border-top: 1px solid #e6e6e6;
+    padding: 10px 0;
+}
+
+.detail-addcmt input {
+    border: none;
+    background-color: white;
+    width: 80%;
+    margin: 0 15px;
+    outline: none;
+}
+
+.detail-addcmt button {
+    color: #0095f6;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+ }

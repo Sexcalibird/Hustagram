@@ -1,0 +1,122 @@
+.side {
+    height: 100vh;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 20px 10px;
+
+}
+
+.side-collapse {
+    width: 80px;
+}
+
+.side-logo {
+    font-size: 25px;
+    font-family: 'Papyrus',cursive;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.container-side a {
+    text-decoration: none;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.collapse-selected {
+    border: 1px solid #e6e6e6 !important;
+    border-radius: 50% !important;
+}
+
+.menu-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor:pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.menu-btn span {
+    font-size: 17px;
+}
+
+.menu-btn :hover {
+    background-color: #fafafa !important;
+}
+
+.more-menu {
+    width: 238px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    bottom: 65px;
+    left: 15px;
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 20px;
+}
+
+.more-menu button {
+    width: 100%;
+    border: none;
+    display: flex;
+    background-color: white;
+    cursor:pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+
+.buttonTop {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.buttonBot {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #dc2743;
+}
+
+.more-menu :hover {
+    background-color: #fafafa !important;
+}
+
+.more-btn {
+    position: absolute;
+    bottom: 5px;
+}
+
+.side-profile{
+    height: 35px;
+    width: 35px;
+    background: none;
+}
+
+.side-profile img{
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+

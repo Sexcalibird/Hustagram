@@ -1,0 +1,174 @@
+.profile-container {
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.modal-open {
+    width: 990px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+.main-profile {
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.main-profile-left {
+    width: 30%;
+    height: auto;
+    margin: 30px;
+    vertical-align: center;
+    display: flex;
+}
+
+.main-profile-left img {
+    display: block;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.main-profile-right {
+    width: 70%;
+    height: auto;
+    margin: 40px 15px;
+}
+
+.right-top {
+    align-items: center;
+    display: flex;
+}
+
+.right-top span {
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.right-top .profile-btn {
+    border: none;
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.right-top .profile-follow {
+    border: none;
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #3897f0;
+    color: white;
+    cursor: pointer;
+}
+
+.right-top .profile-following {
+    border: none;
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.right-top .profile-logout {
+    border: none;
+    margin: 0 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.right-mid {
+    margin: 30px 0;
+}
+
+.right-mid span {
+    font-weight: bold;
+}
+
+.right-mid li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.right-mid a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-bot {
+    font-size: 15px;
+}
+
+.profile-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.modalDiv {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    overflow-y: hidden;
+}
+.modal {
+    width: 350px;
+    height: 330px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.modal-header {
+    width: 350px;
+    height: 40px;
+    position: fixed;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: white;
+    text-align:center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.modal h4 {
+    margin: 10px auto;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .profile-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .profile-container {
+        width: 100%;
+    }
+}

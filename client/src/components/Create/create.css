@@ -1,0 +1,141 @@
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.7);
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: block;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay-content-header {
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.overlay-content-main {
+    display: flex;
+}
+
+.overlay-content-left {
+    width: 40%;
+}
+
+.overlay-content-left .overlay-user {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 40px;
+}
+
+.overlay-user .overlay-username{
+    width: auto;
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.overlay-user .overlay-profile-pic{
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    background: none;
+}
+
+.overlay-user .overlay-profile-pic img{
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.overlay-content-left textarea {
+    width: 90%;
+    min-height: 150px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.overlay-content-left input {
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #3f51b5;
+}
+
+.overlay-content-right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-left: 1px solid #e6e6e6;
+}
+
+.overlay-content-right input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #0095f6;
+    border-radius: 20px;
+    width: 40%;
+    margin: 10px auto auto;
+}
+
+.overlay-content-right img {
+    margin: auto;
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.share-btn {
+    position: absolute;
+    right: 25px;
+    color: #0095f6;
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.share-btn:disabled {
+    color: #8e8e8e;
+    cursor: unset;
+}

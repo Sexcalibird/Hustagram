@@ -1,0 +1,11 @@
+.profile-posts-container {
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,41 @@
+.user_list {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.user_list_detail {
+    display: flex;
+    align-items: center;
+}
+
+.user_list_detail img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user_list_detail a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user_list button {
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: #0095f6;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.following {
+    color: #888888 !important;
+}

@@ -1,0 +1,8 @@
+export { default as Footer } from './footer/Footer'
+export { default as OR } from './OR/OR'
+export { default as GoogleBtn} from './Google Login/GoogleBtn'
+export { default as Layout} from './Layout'
+export { default as RequireAuth} from './functions/RequireAuth'
+export { default as PostCard} from './PostCard/PostCard'
+export { default as SideMenu} from './sideMenu/SideMenu'
+export { default as Create} from './Create/Create'

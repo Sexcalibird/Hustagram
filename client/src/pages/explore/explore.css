@@ -1,0 +1,12 @@
+.explore-container {
+    margin: 10px auto;
+    padding: 0 2rem;
+    width: 990px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    padding-bottom: 1rem;
+}
