@@ -7,7 +7,7 @@ export const ContextProvider =({children}) => {
     const [toggleCreate, setToggleCreate] = useState(false)
     const [id, setId] = useState('')
     const [modalOpen, setModalOpen] = useState(false)
-    const socket = io("ws://localhost:8900")
+    const socket = io("https://hustagram-socket.onrender.com")
     return (
         <CreateContext.Provider
             value={{
