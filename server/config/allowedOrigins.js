@@ -1,6 +1,6 @@
 const allowedOrigins = [
     'http://localhost:3000',
-    'https://www.coonstagram.com',
+    'https://hustagram.onrender.com',
 ]
 
 module.exports = allowedOrigins
