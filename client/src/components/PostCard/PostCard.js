@@ -101,7 +101,7 @@ const PostCard = ({post}) => {
                         </Link>
                     </span>
                     {post.desc}<br/>
-                    {post.tags?.map((tag, index) => (
+                    {post?.tags?.map((tag, index) => (
                         <Link to={`/explore/tags/${encodeURIComponent(tag)}`} key={index} style={{  color: '#3f51b5' }}>
                             {`${tag} `}
                         </Link>
